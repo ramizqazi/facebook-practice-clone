@@ -1,0 +1,1 @@
+export const ENTITIES_ADD = 'ENTITIES/ENTITIES_ADD';

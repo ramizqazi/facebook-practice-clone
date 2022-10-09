@@ -1,0 +1,58 @@
+{
+  "name": "facebook",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^5.1.0",
+    "@react-native-firebase/app": "^14.3.0",
+    "@react-native-firebase/auth": "^14.3.0",
+    "@react-native-firebase/firestore": "^14.3.0",
+    "@react-native-firebase/storage": "^14.3.0",
+    "@react-navigation/native": "~6.0.2",
+    "@react-navigation/native-stack": "~6.3.0",
+    "moment": "^2.29.1",
+    "normalizr": "^3.6.1",
+    "react": "17.0.2",
+    "react-intl": "^5.24.4",
+    "react-native": "0.67.2",
+    "react-native-camera-hooks": "~0.5.3",
+    "react-native-check-box": "~2.1.7",
+    "react-native-fast-image": "~8.5.11",
+    "react-native-image-picker": "~4.7.3",
+    "react-native-linear-gradient": "~2.5.6",
+    "react-native-modal": "~13.0.0",
+    "react-native-modal-datetime-picker": "~13.0.1",
+    "react-native-pager-view": "^5.4.9",
+    "react-native-picker-select": "~8.0.4",
+    "react-native-progress": "^5.0.0",
+    "react-native-safe-area-context": "~3.3.2",
+    "react-native-screens": "^3.10.2",
+    "react-native-svg": "~12.1.1",
+    "react-native-svg-transformer": "^1.0.0",
+    "react-native-tab-view": "~3.1.1",
+    "react-native-vector-icons": "~9.0.0",
+    "react-redux": "~7.2.6",
+    "redux": "~4.1.2",
+    "redux-thunk": "~2.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/runtime": "^7.16.7",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.8.0",
+    "jest": "^27.4.7",
+    "metro-react-native-babel-preset": "^0.67.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
